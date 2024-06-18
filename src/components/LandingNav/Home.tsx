@@ -45,7 +45,7 @@ export const products = [
   },
 
   {
-    title: "",
+    title: "AI",
     link: "#",
     thumbnail:
       "/graphic.jpg",
@@ -63,7 +63,7 @@ export const products = [
       "/saas.jpeg",
   },
   {
-    title: "SmartBridge",
+    title: "market",
     link: "#",
     thumbnail:
       "/chrome.jpg",
