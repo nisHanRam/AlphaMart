@@ -1,7 +1,28 @@
+"use client";
+import React from "react";
+import { HeroParallaxhome } from "@/components/LandingNav/Home";
+import { GoogleGeminiEffec } from "@/components/LandingNav/geffect";
+import { InfiniteMovingCardsDemo } from "@/components/LandingNav/infinity";
+
+import { GlareCardDemo } from "@/components/LandingNav/glare";
+import { SparklesPreview } from "@/components/LandingNav/Sprak";
+
+
+
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      Hero Section
-    </main>
+    
+    <>
+  
+      <SparklesPreview/>
+      
+      <GoogleGeminiEffec/>
+      <HeroParallaxhome/>
+   
+     <GlareCardDemo/>
+    </>
+ 
+
+
   );
 }
